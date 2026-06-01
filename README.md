@@ -1,182 +1,17 @@
-# US-systemic-economic-risk
 # US Economic Systemic Risk Monitor
 
-## Overview
+An interactive Streamlit dashboard for exploring systemic economic risks in the United States using a Minsky-inspired framework.
 
-US Economic Systemic Risk Monitor is an interactive macroeconomic analytics dashboard designed to assess systemic risks within the United States economy using a Minsky-inspired framework.
+The application allows users to adjust key macroeconomic indicators, run custom scenarios, and visualize estimated systemic risk through interactive charts and analytics.
 
-The application combines economic indicators, scenario analysis, historical comparisons, and probabilistic modeling to estimate the likelihood of large-scale economic stress events. It is designed as an analytical demonstration platform that showcases how macroeconomic variables, debt dynamics, monetary policy, and financial conditions can influence overall systemic risk.
+## Features
 
-The project is built with Streamlit and provides an intuitive interface for economists, researchers, students, investors, and anyone interested in macroeconomic risk assessment.
-
----
-
-## Key Features
-
-### Interactive Minsky Crisis Model
-
-The core component of the application allows users to simulate different economic conditions by adjusting key macroeconomic variables:
-
-* Debt-to-GDP Ratio
-* Corporate Debt-to-GDP Ratio
-* Federal Funds Rate
-* Inflation Rate
-* Unemployment Rate
-* Yield Curve Spread
-* Asset Bubble Index
-
-Users can run custom scenarios and instantly receive:
-
-* Composite Systemic Collapse Probability (CSCP)
-* Risk Classification
-* Minsky Financial Regime Identification
-* Executive Risk Summary
-
----
-
-### Dashboard
-
-The dashboard provides a high-level overview of the simulated economic environment, including:
-
-* Composite Risk Score
-* Recession Risk
-* Financial Crisis Risk
-* Banking Stress Risk
-* Debt Crisis Risk
-
-Interactive visualizations include:
-
-* Risk Gauge
-* Historical Risk Trend
-* Systemic Risk Heatmaps
-
----
-
-### Historical Analysis
-
-Explore long-term macroeconomic trends through historical data visualizations.
-
-Available indicators include:
-
-* GDP Growth
-* Inflation
-* Federal Funds Rate
-* Unemployment
-* Debt Metrics
-* Yield Curve Dynamics
-
-Features:
-
-* Interactive Plotly Charts
-* Trend Analysis
-* Historical Comparisons
-* Correlation Analysis
-
----
-
-### Forecast & Monte Carlo Simulation
-
-The platform supports forward-looking analysis through simulation-based approaches.
-
-Capabilities include:
-
-* Scenario Testing
-* Monte Carlo Simulations
-* Risk Distribution Analysis
-* Confidence Intervals
-* Future Risk Projections
-
-Simulation scales:
-
-* 10,000 iterations
-* 50,000 iterations
-* 100,000 iterations
-
----
-
-### Crisis Comparison
-
-Compare current economic conditions against major historical crises:
-
-* Great Depression (1929)
-* Oil Crisis (1973)
-* Dot-Com Bubble (2000)
-* Global Financial Crisis (2008)
-* COVID-19 Crisis (2020)
-
-Outputs include:
-
-* Similarity Scores
-* Historical Pattern Recognition
-* Comparative Risk Visualization
-
----
-
-## Methodology
-
-The application is inspired by Hyman Minsky's Financial Instability Hypothesis.
-
-The model estimates a Composite Systemic Collapse Probability (CSCP) based on four major dimensions:
-
-### Recession Risk
-
-Measures macroeconomic deterioration through:
-
-* Growth indicators
-* Labor market conditions
-* Monetary policy signals
-
-### Financial Crisis Risk
-
-Captures vulnerabilities in financial markets through:
-
-* Credit conditions
-* Corporate leverage
-* Yield curve dynamics
-
-### Banking Stress Risk
-
-Evaluates potential instability within the banking system using:
-
-* Interest rate conditions
-* Liquidity indicators
-* Financial stress measures
-
-### Debt Crisis Risk
-
-Assesses the sustainability of debt accumulation and leverage within the economy.
-
----
-
-## Technology Stack
-
-### Frontend
-
-* Streamlit
-
-### Data Processing
-
-* Pandas
-* NumPy
-* SciPy
-
-### Visualization
-
-* Plotly
-
-### Future Production Version
-
-The full production version is planned to include:
-
-* FRED API Integration
-* ARIMA/SARIMAX Forecasting
-* PDF Report Generation
-* Excel Export
-* Historical Economic Database
-* Automated Data Updates
-* Advanced Monte Carlo Engines
-
----
+* Interactive Minsky Crisis Model
+* Scenario-based risk analysis
+* Historical risk visualization
+* Monte Carlo simulation demo
+* Crisis comparison dashboard
+* Interactive Plotly charts
 
 ## Installation
 
@@ -193,68 +28,29 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the application:
+## Run Locally
+
+Start the Streamlit application:
 
 ```bash
 python -m streamlit run demo_app.py
 ```
 
-Open your browser:
+After launch, open:
 
 ```text
 http://localhost:8501
 ```
 
----
-
 ## Project Structure
 
 ```text
-us-economic-systemic-risk-monitor/
-│
+.
 ├── demo_app.py
 ├── requirements.txt
-├── PROJECT_GENERATION_PROMPT.md
 └── README.md
 ```
 
----
-
-## Roadmap
-
-### Phase 1 – Demonstration Platform
-
-* Interactive dashboard
-* Scenario analysis
-* Minsky-based risk model
-* Monte Carlo simulation
-* Crisis comparison
-
-### Phase 2 – Data Integration
-
-* FRED API
-* Real economic indicators
-* Automated updates
-
-### Phase 3 – Production Analytics Platform
-
-* Advanced forecasting
-* PDF and Excel exports
-* Multi-factor risk engine
-* Historical crisis database
-* Professional reporting system
-
----
-
 ## Disclaimer
 
-This project is intended for educational, research, and demonstration purposes only.
-
-The risk estimates generated by the application should not be interpreted as financial, investment, economic, or policy advice. The results represent model-based simulations and are not predictions of actual future events.
-
----
-
-## License
-
-MIT License
-
+This project is a demonstration and educational tool. It does not provide financial, investment, or economic advice.
